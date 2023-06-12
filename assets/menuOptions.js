@@ -1,3 +1,5 @@
+import { FontAwesome5 } from '@expo/vector-icons'
+
 export default [
   {
     name: 'Controls',
@@ -34,4 +36,9 @@ export default [
     iconName: 'dog',
     href: '/pet-mode',
   },
-];
+  {
+    name: 'Doctor',
+    icon: () => <FontAwesome5 name='user-md' size={24} color='gray' />,
+    href: '/doctor'
+  },
+]
